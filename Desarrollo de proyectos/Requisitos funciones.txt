@@ -1,0 +1,16 @@
+Requisitos funcionales
+RF-001 	Asignar plazas a los alumnos en campo clinico
+RF-002	Capacidad para mas de 80 alumnos
+RF-003	Asignacion a dos tipos de planes de estudio
+RF-004 	Altas y bajas en tiempo real	
+RF-005	Descontar campos asignados
+RF-006	Roles de acceso
+RF-007	Pantalla administradores
+RF-008	Modificaciones por administrador
+RF-009	Pantalla capturadores
+RF-010	Autocompletado con numero de cuenta
+RF-011	Validacion de documentos	
+RF-012	Validacion de datos de alumno
+RF-013	Formulario con formato oficial
+RF-014 	Imprimir formulario
+RF-015	Generar reporte en excel
