@@ -672,32 +672,41 @@ img{
     height: 25px;
 }
 .form_horarioDe{
+    
     width: 199px;
     margin-right: 415px;
     border-radius: 8px;
     height: 25px;
 }
     .LabelHorario{
-        margin-left: 400px;
-        margin-right: 6000px;
+    justify-content: center;
+   margin-left: 400px;
+    position:relative;
+
         
     }
-.labelDe.labelA{
+    .labelDe{
+      justify-content: center;
+            font-size: 14px
+    }
+    
+    .labelA{
     
     font-size: 14px
 }
 
 .botones{
-    margin-left: 595px;
+    justify-content: center;
     position:relative;
     display:flex;
     flex-wrap: wrap;
+    margin-right: 10px;
     float: left;
-
 }
 .formCancelar{
+    
     height: 30px;
-    margin-left: 70px;
+    margin-left: 666px;
     background: #E15050;
     color: white;
 
