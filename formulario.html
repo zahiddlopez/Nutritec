@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion de campos clinicos - formulario</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+   
+   <header class="main-header">
+       
+        <div class="container container--flex">
+            <div class="logo-container column column-33"><img src="img/f2.png" alt="" class="logo"></div>
+        
+        <div class="main-header__GestionCamp column column-33">
+            <h1 class="GestionCamp">Gestion de campos clinicos</h1>
+        </div>
+        <div class="main-header__Nutri column column-33">
+            <h1 class="Nutricion">Nutrición</h1>
+        </div>
+        
+        </div>
+        
+    </header>
+    <form action="#" class="Formulario_formulario">
+       <h1 class="Dat_alum">Datos alumno</h1>
+       <div class="columna_1">
+        <div class="form_NumCuenta">
+            <input type="number" class="form_Numcuenta" id="NumCuenta" placeholder="No. Cuenta" >
+        </div>
+
+        <div class="form_Cuatri">
+            <input type="number" class="form_cuatri" id="Cuatrimestre" placeholder="Cuatrimestre" >
+            
+        </div>
+        </div>
+        
+        <div class="columna_2">
+        <div class="form_AP">
+            <input type="text" class="form_Ap" id="ApellidoP" placeholder="Apellido paterno" >
+        </div>
+        <div class="form_AM">
+            <input type="text" class="form_Am" id="ApellidoM" placeholder="Apellido materno" >
+        </div>
+        <div class="form_Nombre">
+            <input type="text" class="form_Nombre" id="NombreAlumn" placeholder="Nombre(s)" >
+            
+        </div>
+        </div>
+        <div class="columna_3">
+            <div class="form_Email">
+                <input type="email" class="form_email" id="alum_email" placeholder="Email" >
+            </div>
+            <div class="form_TelFijo">
+                <input type="tel" class="form_telfijo" id="TelefonoFijo" placeholder="Telefono fijo" >
+            </div>
+            <div class="form_TelCel">
+                <input type="tel" class="form_telcel" id="TelefonoCelular" placeholder="Celular" >
+            </div>
+        </div>
+        <div class="columna_4">
+            <div class="form_telEmergencia">
+                <input type="text" class="form_telemergencia" id="TelEmergencia" placeholder="En caso de emergencia llamar a" >
+            </div>
+            <div class="form_TelFamiliar">
+                <input type="tel" class="form_Telfamiliar" id="TelFamiliar" placeholder="Telefono de familiar" >
+            </div>
+        </div>
+        <h1 class="Dat_campo">Campo clinico</h1>
+        <div class="columna_5">
+        <div class="form_Lugar">
+            <select  class="form_lugar" id="LugarCampo">
+                <option value="lugar1"></option>
+                <option value="lugar2"></option>
+                <option value="lugar3"></option>
+                <option value="lugar4"></option>
+                <option value="lugar5"></option>
+                <option value="lugar6"></option>
+                <option value="lugar7"></option>
+            </select>
+        </div>
+        
+        <div class="form_Horario">
+          <div class="divLabel"><label class="LabelHorario">Horario</label></div>
+           <div class="form_turnos">
+            <select class="Turnos" name="Horarios_1" id="Turnos">
+                <option value="Matutino">Matutino</option>
+                <option value="Mixto">Mixto</option>
+                <option value="Vespertino">Vespertino</option>
+            </select>
+            <select class="Horas" name="Horarios_2" id="Horas">
+                <option value="Matutino">07:00 A 13:00</option>
+                -<option value="Matutino">07:00 A 15:00</option>
+                <option value="Mixto">08:00 A 20:00</option>
+                <option value="Mixto">09:00 A 18:00</option>
+                <option value="Vespertino">11:00 A 19:00</option>
+                <option value="Vespertino">14:00 A 20:00 </option>
+            </select>
+            </div>
+        </div>
+        </div>
+        <div class="columna_6">
+            <div class="form_FechaPrac">
+               <input type="text" class="FechaPrac" id="FechaPractica" placeholder="Fecha de la practica" >
+                </div>
+        </div>
+        <div class="columna_7">
+            <div class="form_Dir">
+                <input type="text" class="Form_Dir" id="DireccionCampo" placeholder="Direccion" >
+            </div>
+        </div>
+        
+        <div class="columna_8">
+            <div class="form_FechaPres">
+                <input type="text" class="Form_FechaPresentacion" id="FechaPresentacion" placeholder="Fecha de presentacion" >
+            </div>
+        </div>
+        <div class="botones">
+            <div class="form_Cancelar">
+                <input class="formCancelar " type="submit" value="CANCELAR" formaction="index.html"  >
+            </div>
+            <div class="form_Continuar">
+                <input class="formContinuar" type="submit" value="CONTINUAR" formaction="index.html">
+            </div>
+        </div>
+        
+        
+    </form>
+    
+</body>
+</html>
