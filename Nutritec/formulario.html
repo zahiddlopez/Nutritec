@@ -70,14 +70,34 @@
         <h1 class="Dat_campo">Campo clinico</h1>
         <div class="columna_5">
         <div class="form_Lugar">
-            <input type="text" class="form_lugar" id="LugarCampo" placeholder="Lugar" >
+            <select  class="form_lugar" id="LugarCampo">
+                <option value="lugar1"></option>
+                <option value="lugar2"></option>
+                <option value="lugar3"></option>
+                <option value="lugar4"></option>
+                <option value="lugar5"></option>
+                <option value="lugar6"></option>
+                <option value="lugar7"></option>
+            </select>
         </div>
         
         <div class="form_Horario">
           <div class="divLabel"><label class="LabelHorario">Horario</label></div>
-           
-            <label class="labelDe"> De: </label><input type="time" class="form_horarioDe" id="HorarioDe" >
-            <label class="labelA">A: </label><input type="time" class="form_horarioA" >
+           <div class="form_turnos">
+            <select class="Turnos" name="Horarios_1" id="Turnos">
+                <option value="Matutino">Matutino</option>
+                <option value="Mixto">Mixto</option>
+                <option value="Vespertino">Vespertino</option>
+            </select>
+            <select class="Horas" name="Horarios_2" id="Horas">
+                <option value="Matutino">07:00 A 13:00</option>
+                -<option value="Matutino">07:00 A 15:00</option>
+                <option value="Mixto">08:00 A 20:00</option>
+                <option value="Mixto">09:00 A 18:00</option>
+                <option value="Vespertino">11:00 A 19:00</option>
+                <option value="Vespertino">14:00 A 20:00 </option>
+            </select>
+            </div>
         </div>
         </div>
         <div class="columna_6">

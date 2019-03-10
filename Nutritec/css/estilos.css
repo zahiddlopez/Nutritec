@@ -204,18 +204,28 @@ img{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-.form_horarioDe{
-    margin-right: 36px;
+.form_turnos{
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    float: left;
+
+}
+.Horas{
+    margin-left: 130px;
     border-radius: 8px;
-}
-    .LabelHorario{
-    margin-right: 500px;
-        margin-left: 145px;
+
     }
-.labelDe,.labelA{
     
-    font-size: 14px
-}
+    .Turnos{
+    border-radius: 8px;
+
+
+    }
+.LabelHorario{
+        margin-left: 140px;
+        
+    }
 
 .botones{
 
@@ -406,27 +416,33 @@ img{
 .form_Horario{
     margin-top: 8px;
     margin-bottom: 8px;
+    
 }
 
-.form_horarioA{
-    border-radius: 8px;
-    width: 197px;
-    height: 25px;
+.form_turnos{
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+    float: left;
+
 }
-.form_horarioDe{
-    width: 197px;
-    margin-right: 36px;
+.Horas{
+    margin-left: 80px;
     border-radius: 8px;
+    width: 199px;
     height: 25px;
-}
+    }
+    
+    .Turnos{
+    border-radius: 8px;
+    width: 199px;
+    height: 25px;
+    }
+
     .LabelHorario{
         margin-left: 222px;
         
     }
-.labelDe,.labelA{
-    
-    font-size: 14px
-}
 
 .botones{
 
@@ -666,15 +682,15 @@ img{
     margin-top: 8px;
     margin-bottom: 8px;
 }
-.form_horarioA{
+.Turnos{
     border-radius: 8px;
     width: 199px;
     height: 25px;
 }
-.form_horarioDe{
+.Horas{
     
     width: 199px;
-    margin-right: 415px;
+   margin-left: 460px;
     border-radius: 8px;
     height: 25px;
 }
@@ -685,15 +701,7 @@ img{
 
         
     }
-    .labelDe{
-      justify-content: center;
-            font-size: 14px
-    }
-    
-    .labelA{
-    
-    font-size: 14px
-}
+
 
 .botones{
     justify-content: center;
