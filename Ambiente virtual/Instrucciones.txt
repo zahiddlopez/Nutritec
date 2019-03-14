@@ -1,3 +1,6 @@
+Descargar 
+MYSQL https://drive.google.com/open?id=1i3zWfBTJZqcTsw-yPLyFiqE3pBWlKA2e
+Ambiente virtual https://drive.google.com/open?id=1Qa83FtI3KE5SR7_8KAZd27HJwAKNmJSc
 Pogramas instalados
 *mysql-installer-community-8.0.15.0
 	Tener el conector ODBC de 32 bits instalado
