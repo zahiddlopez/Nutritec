@@ -1,0 +1,4 @@
+C:\Users\Danie\AppData\Local\Programs\Python\Python37
+C:\Users\Danie\AppData\Local\Programs\Python\Python37\python.exe
+C:\Users\Danie\AppData\Local\Programs\Python\Python37\Lib\site-packages\django\bin\
+C:\Users\Danie\AppData\Local\Programs\Python\Python37\Scripts

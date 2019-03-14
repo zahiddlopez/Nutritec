@@ -1,0 +1,27 @@
+Pogramas instalados
+*mysql-installer-community-8.0.15.0
+	Tener el conector ODBC de 32 bits instalado
+*Python (Preferente 32 bits)
+	En las varables de entorno seccion Path agregar:
+		C:\Users\Danie\AppData\Local\Programs\Python\Python37-32
+		C:\Users\Danie\AppData\Local\Programs\Python\Python37-32\python.exe
+		C:\Users\Danie\AppData\Local\Programs\Python\Python37-32\Lib\site-packages\django\bin\
+		C:\Users\Danie\AppData\Local\Programs\Python\Python37-32\Scripts
+Paqueterias instaladas en python
+	Django==2.1.7
+	django-mysql==2.4.1
+	mysql-connector-python==8.0.15
+	pytz==2018.9
+	virtualenv==16.4.1
+Si no lo tienes y si lo tienes ver la imagen Visual.png
+
+Si tienes instalado MySQL solo jecuta los dos scripts
+
+Iniciar la aplicacion web Nutritec
+	*iniciar el cmd
+	*Posicionarse en la carpeta Nutritec
+	*Activar la aplicacion .\Scripts\activate
+	*posicionarse en la carpeta src
+	*ejecutar el siguiente comando python manage.py runserver
+Nota:
+Ver la configuracion a la base de datos en settings.py
