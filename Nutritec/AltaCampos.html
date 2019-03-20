@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <title>Alta Campos Clinicos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+   <header class="main-header">
+       
+        <div class="container container--flex">
+            <div class="logo-container column column-33"><img src="img/f2.png" alt="" class="logo"></div>
+        
+        <div class="main-header__GestionCamp column column-33">
+            <h1 class="GestionCamp">Gestion de campos clinicos</h1>
+        </div>
+        <div class="main-header__Nutri column column-33">
+            <h1 class="Nutricion">Nutrición</h1>
+        </div>
+        
+        </div>
+        
+    </header>
+    <div id="AltaCampos">
+       <form action="#" class="AltaCampos">
+           
+           <div>
+               <table class="TablaAltaCampos">
+                  <tr>
+                      <td>
+                          <h1 class="TituloCampos">Alta de campos clinicos</h1>
+                      </td>
+                  </tr>
+                   <tr>
+                       <td>
+                         <input type="text" placeholder="Nombre del campo clinico" class="AltaNombreCamp">  
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <p class="AltaHor">Horario</p>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <select class="AltaTurnos">
+                               <option value="Matutino">Matutino</option>
+                               <option value="Mixto">Mixto</option>
+                               <option value="Vespertino">Vespertino</option>
+                               
+                           </select>
+                       
+                       
+                           <select class="AltaHorarios">
+                               <option value="Matutino"> 07:00 A 13:00</option>
+                               <option value="Matutino">07:00 A 15:00</option>
+                               <option value="Mixto">08:00 A 20:00</option>
+                               <option value="Mixto">09:00 A 18:00</option>
+                               <option value="Mixto">11:00 A 19:00</option>
+                               <option value="Vespertino">14:00 A 20:00</option>
+                           </select></td>
+                       
+                       
+                   </tr>
+                   <tr>
+                       <td>
+                           <input type="text" placeholder="Grado" class="AltaGrado">
+                       
+                       <input type="text" placeholder="Lugares" class="AltaLugares"></td>
+                   </tr>
+                   <tr>
+                       <td><input type="text" placeholder="Direccion" class="AltaDireccion"></td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <input type="text"
+                           placeholder="Fecha de practica" class="AltaFecha">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <input type="submit" value="Cancelar" class="AltaCancelar">
+                           <input type="submit" value="Guardar" class="AltaGuardar">
+                       </td>
+                   </tr>
+               </table>
+           </div>
+       </form>
+        
+    </div>
+    
+</body>
+</html>

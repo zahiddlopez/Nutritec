@@ -15,7 +15,7 @@ body{
 
 #Index{
 
-    background-image: url(f1.jpeg);
+    background-image: url(f1.png);
     background-color: #666999;
 
 }
@@ -60,6 +60,7 @@ img{
     width: 100%;
     height: auto;
     background-color: rgba(0,0,0,0.25);
+
     }
     
     .container--flex{
@@ -146,9 +147,10 @@ img{
 /*-------------------------------Estilos del menu-------------------------------*/
 .Menu_menu{
     margin-top: 110px;
-    margin-left: 50px;
-    align-content: center;
-    
+}
+
+.TablaMenu{
+    margin: 0 auto;
 }
 
 .Asig_camp{
@@ -160,9 +162,12 @@ img{
 
 /*----------------------------Estilos del formulario----------------------------*/
 
+    .TablaFormAlumno{
+        margin: 0 auto;
+    }
 .Formulario_formulario{
     margin-top: 20px;
-    margin-left: 30px;
+
 
 
 }
@@ -240,7 +245,7 @@ img{
     margin-left: 70px;
     background: #E15050;
     color: white;
-
+    border: 0;
     border-radius: 8px;
 }
 
@@ -250,13 +255,122 @@ img{
     color: white;
     margin-left: 10px;;
     border-radius: 8px;
+    border: 0;
 }
+
+.TituloCampos{
+    text-align: center;
+        font-size: 15px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .TablaCampos{
+        margin: 0 auto;
+    }
+    
+
+    
+    .CampoEliminar{
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #f44141;
+        border: 0;
+    }
+    .TablaAltaCampos{
+        margin: 0 auto;
+        
+    }
+    .AltaNombreCamp,.AltaDireccion,.AltaFecha{
+        width:380px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .AltaHor{
+        font-size: 15px;
+        margin-left: 180px;
+    }
+    .AltaTurnos, .AltaGrado{
+        width: 100px;
+        height: 25px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        
+    }
+    .AltaHorarios,.AltaLugares{
+       width: 100px;
+        height: 25px;
+        border-radius: 8px;
+        margin-left: 170px;
+    }
+    .AltaGuardar{
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #58ce64;
+        color: white;
+        border: 0;
+        
+    }
+    .AltaCancelar{
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 10px;
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #ce5858;
+        color: white;
+        border: 0;
+    }
+    .TablaAlumnos{
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .TituloEditAlum{
+        font-size: 18px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .TextEditAlum{
+        font-size: 15px;
+        
+    }
+    #BusquedaAlumno{
+        margin-top: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .ButtonBuscarAlum{
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #3e73a3;
+        border: 0;
+        
+    }
+    .ButtonEditar{
+
+        border: 0;
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #f4c842;
+    }
+
+
 
 
 
 
 /*-----------------------------Estilos medios-----------------------------*/
-@media only screen and (min-width: 470px){
+@media only screen and (min-width: 460px){
 /*--------------------Estilos base--------------------*/    
 .logo{
     display: block;
@@ -368,11 +482,14 @@ img{
     height: 170px;
 }
     /*----------------------------Estilos del formulario----------------------------*/
+    .TablaFormAlumno{
+        margin: 0 auto;
+    }
 
 .Formulario_formulario{
     
     margin-top: 20px;
-    margin-left: 150px;
+
 
 
 }
@@ -392,7 +509,7 @@ img{
 
 
 .columna_1,.columna_2,.columna_3,.columna_4,.columna_5,.columna_6,.columna_7,.columna_8,.botones{
-    
+    margin-left: 100px;
     margin-bottom: 5px;
     position:relative;
     display:inline-flex;
@@ -468,6 +585,111 @@ img{
     margin-left: 10px;;
     border-radius: 8px;
 }
+    
+    .TituloCampos{
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .TablaCampos{
+        margin: 0 auto;
+    }
+    
+
+    
+    .CampoEliminar{
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #f44141;
+        border: 0;
+    }
+    .TablaAltaCampos{
+        margin: 0 auto;
+        
+    }
+    .AltaNombreCamp,.AltaDireccion,.AltaFecha{
+        width:800px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .AltaHor{
+        margin-left: 380px;
+    }
+    .AltaTurnos, .AltaGrado{
+        width: 200px;
+        height: 25px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        
+    }
+    .AltaHorarios,.AltaLugares{
+       width: 200px;
+        height: 25px;
+        border-radius: 8px;
+        margin-left: 395px;
+    }
+    .AltaGuardar{
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #58ce64;
+        color: white;
+        border: 0;
+        
+    }
+    .AltaCancelar{
+        margin-top: 20px;
+        margin-left: 605px;
+        margin-right: 10px;
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #ce5858;
+        color: white;
+        border: 0;
+    }
+    .TablaAlumnos{
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .TituloEditAlum{
+        font-size: 30px;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .TextEditAlum{
+        font-size: 17px;
+        
+    }
+    #BusquedaAlumno{
+        margin-top: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .ButtonBuscarAlum{
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #3e73a3;
+        border: 0;
+        
+    }
+    .ButtonEditar{
+
+        border: 0;
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #f4c842;
+    }
 
     
     }
@@ -589,10 +811,13 @@ img{
     height: 200px;
 }
     /*----------------------------Estilos del formulario----------------------------*/
+    .TablaFormAlumno{
+        margin: 0 auto;
+    }
 
 .Formulario_formulario{
     margin-top: 70px;
-    margin-left: 320px;
+
 
 
 }
@@ -633,7 +858,7 @@ img{
     
     }
    .form_telcel{
-    margin-left: 130px;
+    margin-left: 125px;
     margin-top: 5px;
     width: 200px;
     height: 25px;
@@ -646,7 +871,7 @@ img{
     }
     
     .form_Nombre{
-    margin-left: 65px;
+    margin-left: 125px;
     width: 200px;
     height: 25px;
         
@@ -715,19 +940,123 @@ img{
     
     height: 30px;
     margin-left: 666px;
-    background: #E15050;
+    background: #ce5858;
     color: white;
 
     border-radius: 8px;
 }
 
 .formContinuar{
-        height: 30px;
-    background: #2E9F26;
+     height: 30px;
+    background: #58ce64;
     color: white;
     margin-left: 10px;;
     border-radius: 8px;
 }
+    .TituloCampos{
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
 
+    
+    .TablaCampos{
+        margin: 0 auto;
+    }
+    
+    .CampoClinico{
+        width: 600px;
+    }
+    
+    .CampoEliminar{
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #f44141;
+        border: 0;
+    }
+    .TablaAltaCampos{
+        margin: 0 auto;
+        
+    }
+    .AltaNombreCamp,.AltaDireccion,.AltaFecha{
+        width:800px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .AltaHor{
+        margin-left: 380px;
+    }
+    .AltaTurnos, .AltaGrado{
+        width: 200px;
+        height: 25px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        
+    }
+    .AltaHorarios,.AltaLugares{
+       width: 200px;
+        height: 25px;
+        border-radius: 8px;
+        margin-left: 395px;
+    }
+    .AltaGuardar{
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #58ce64;
+        color: white;
+        border: 0;
+        
+    }
+    .AltaCancelar{
+        margin-top: 20px;
+        margin-left: 605px;
+        margin-right: 10px;
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #ce5858;
+        color: white;
+        border: 0;
+    }
+    .TablaAlumnos{
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .TituloEditAlum{
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .TextEditAlum{
+        font-size: 17px;
+        
+    }
+    #BusquedaAlumno{
+        margin-top: 25px;
+        height: 25px;
+        border-radius: 8px;
+    }
+    .ButtonBuscarAlum{
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #3e73a3;
+        border: 0;
+        
+    }
+    .ButtonEditar{
+        border: 0;
+        border-radius: 8px;
+        height: 25px;
+        width: 80px;
+        color: white;
+        background: #f4c842;
+    }
+    
     
     }
