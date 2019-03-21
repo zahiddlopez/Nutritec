@@ -13,9 +13,11 @@ Pogramas instalados
 Paqueterias instaladas en python
 	Django==2.1.7
 	django-mysql==2.4.1
-	mysql-connector-python==8.0.15
+	et-xmlfile==1.0.1
+	jdcal==1.4
+	mysqlclient==1.4.2.post1
+	openpyxl==2.6.1
 	pytz==2018.9
-	virtualenv==16.4.1
 Si no lo tienes y si lo tienes ver la imagen Visual.png
 
 Si tienes instalado MySQL solo jecuta los dos scripts
