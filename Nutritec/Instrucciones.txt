@@ -1,0 +1,14 @@
+Todos los archivos de HTML fueron modificados para ajustar los estilos y el icono de menu(inicio)
+se tendran que volver a cagar todo
+el archivo de index en el body tiene el id="=Index" que sirve para que se visualice la imagen de fondo
+los demas archivos tienen la etiqueta de id="menu" para que se visualice su respectiva imagen
+la capeta fonts-usadas creo que por el momento no se usa ya que la fuente usada la puse en css
+la carpeta fonts si esta usada actualmente, esta contiene los archivos del icono asi que debe ser usada
+esta la llamo mediante el html
+la carpta de css tiene los estilos de todos los archivos este archivo igual fue modificado ya que 
+cambie el estilo de todos los archivos
+el archivo styles.css la uso para darle todos los estilos de el icono home(menu)
+este archivo debe estar en la carpeta raiz donde se encuentran todos los html
+eso seria todo por ahora, seguire haciendo las pantallas correspondientes y les ire actualizando
+
+SALUDOS <3

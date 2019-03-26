@@ -20,11 +20,19 @@ body{
 
 }
 
+#menu{
+    background-image: url(f5.jpg);
+    background-color: #FFFFFF;
+    
+}
+
 img{
     width: 100%;
     
     
 }
+
+
 
 /*---------------Estilos de place holder---------------*/
 ::placeholder{
@@ -53,6 +61,15 @@ img{
         
 }
 
+.iconoMenu{
+    text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin-right: 7px;
+       
+    }
+
+
 
    
     .main-header{
@@ -63,17 +80,16 @@ img{
 
     }
     
-    .container--flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: auto;
-    height: auto;
+    
         
-}
+
     
   
 /*------------Estilos del login form------------*/
+.iconoMenu{
+    margin: 0;
+    
+}
 .GestionCamp{
     align-items: center;
     margin: 0;
@@ -150,7 +166,10 @@ img{
 }
 
 .TablaMenu{
+    background: rgba(0,0,0,.10);
     margin: 0 auto;
+    max-width: 1024px;
+
 }
 
 .Asig_camp{
@@ -164,6 +183,8 @@ img{
 
     .TablaFormAlumno{
         margin: 0 auto;
+        text-align: center;
+        background: rgba(255,255,255,.25)
     }
 .Formulario_formulario{
     margin-top: 20px;
@@ -174,6 +195,11 @@ img{
 .Dat_alum{
     font-size: 15px;
     margin-bottom: 5px;
+    position:relative;
+    display:inline-flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    float: left;
 }
 .Dat_campo{
     font-size: 15px;
@@ -228,7 +254,7 @@ img{
 
     }
 .LabelHorario{
-        margin-left: 140px;
+        text-align: center;
         
     }
 
@@ -258,14 +284,14 @@ img{
     border: 0;
 }
 
-.TituloCampos{
+.TituloCampos,.TituloEditarUsuarios,.TituloAltaUsuarios{
     text-align: center;
         font-size: 15px;
-        margin-top: 100px;
         margin-bottom: 50px;
     }
     
     .TablaCampos{
+        background: rgba(255,255,255,.25);
         margin: 0 auto;
     }
     
@@ -280,7 +306,9 @@ img{
         border: 0;
     }
     .TablaAltaCampos{
+        margin-top: 100px;
         margin: 0 auto;
+        background: rgba(255,255,255,.25)
         
     }
     .AltaNombreCamp,.AltaDireccion,.AltaFecha{
@@ -325,14 +353,14 @@ img{
         color: white;
         border: 0;
     }
-    .TablaAlumnos{
+    .TablaAlumnos,.TablaEditarUsuarios,.TablaAltaUsuarios{
         margin: 0 auto;
         text-align: center;
-        
+        background: rgba(255,255,255,.25)
     }
     .TituloEditAlum{
         font-size: 18px;
-        margin-top: 100px;
+
         text-align: center;
     }
     
@@ -363,6 +391,34 @@ img{
         color: white;
         background: #f4c842;
     }
+.UsuarioAlta{
+    width: 250px;
+    height: 25px;
+    margin-left: 13px;
+    border-radius: 8px; 
+    margin-bottom: 25px;
+
+    }
+    .AltaUsuarioGuardar{
+        width: 90px;
+        height: 25px;
+        border-radius: 8px;
+        background: #58ce64;
+        color: white;
+        border: 0;
+        
+    }
+    .AltaUsuarioCancelar{
+        
+        margin-right: 10px;
+        width: 90px;
+        height: 25px;
+        border-radius: 8px;
+        background: #ce5858;
+        color: white;
+        border: 0;
+    }
+
 
 
 
@@ -397,6 +453,14 @@ img{
     background-color: rgba(0,0,0,0.25);
 
 }
+    
+    .iconoMenu{
+    text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin-right: 7px;
+       
+    }
 
 /*------------Estilos del login form------------*/
 .GestionCamp{
@@ -484,6 +548,7 @@ img{
     /*----------------------------Estilos del formulario----------------------------*/
     .TablaFormAlumno{
         margin: 0 auto;
+        background: rgba(255,255,255,.25)
     }
 
 .Formulario_formulario{
@@ -557,7 +622,7 @@ img{
     }
 
     .LabelHorario{
-        margin-left: 222px;
+       text-align: center;
         
     }
 
@@ -586,14 +651,15 @@ img{
     border-radius: 8px;
 }
     
-    .TituloCampos{
+    .TituloCampos,.TituloEditarUsuarios,.TituloAltaUsuarios{
         font-size: 30px;
-        margin-top: 100px;
+
         text-align: center;
         margin-bottom: 50px;
     }
     
     .TablaCampos{
+        background: rgba(255,255,255,.25);
         margin: 0 auto;
     }
     
@@ -608,8 +674,9 @@ img{
         border: 0;
     }
     .TablaAltaCampos{
+        margin-top: 100px;
         margin: 0 auto;
-        
+        background: rgba(255,255,255,.25);
     }
     .AltaNombreCamp,.AltaDireccion,.AltaFecha{
         width:800px;
@@ -652,14 +719,14 @@ img{
         color: white;
         border: 0;
     }
-    .TablaAlumnos{
+    .TablaAlumnos,.TablaEditarUsuarios,.TablaAltaUsuarios{
         margin: 0 auto;
         text-align: center;
-        
+        background: rgba(255,255,255,.25)
     }
     .TituloEditAlum{
         font-size: 30px;
-        margin-top: 100px;
+        
         text-align: center;
     }
     
@@ -690,6 +757,33 @@ img{
         color: white;
         background: #f4c842;
     }
+    .UsuarioAlta{
+    width: 250px;
+    height: 32px;
+    margin-left: 13px;
+    border-radius: 8px; 
+    margin-bottom: 25px;
+
+    }
+    .AltaUsuarioGuardar{
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #58ce64;
+        color: white;
+        border: 0;
+        
+    }
+    .AltaUsuarioCancelar{
+        
+        margin-right: 10px;
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #ce5858;
+        color: white;
+        border: 0;
+    }
 
     
     }
@@ -712,12 +806,19 @@ img{
 .container--flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     width: auto;
     height: auto;
         
 }
+    .iconoMenu{
+    text-decoration: none;
+        color: white;
+        font-size: 30px;
+        margin-right: 7px;
+       
+    }
 
 .main-header{
 
@@ -729,7 +830,7 @@ img{
 
 /*------------Estilos del login form------------*/
 .GestionCamp{
-    align-items: center;
+    justify-content: center;
     margin: 0;
     font-size: 30px; 
     color: #FFFFFF;
@@ -813,6 +914,7 @@ img{
     /*----------------------------Estilos del formulario----------------------------*/
     .TablaFormAlumno{
         margin: 0 auto;
+        background: rgba(255,255,255,.25)
     }
 
 .Formulario_formulario{
@@ -920,9 +1022,7 @@ img{
     height: 25px;
 }
     .LabelHorario{
-    justify-content: center;
-   margin-left: 400px;
-    position:relative;
+    text-align: center;
 
         
     }
@@ -953,14 +1053,15 @@ img{
     margin-left: 10px;;
     border-radius: 8px;
 }
-    .TituloCampos{
-        margin-top: 100px;
+    .TituloCampos,.TituloEditarUsuarios,.TituloAltaUsuarios{
+
         text-align: center;
         margin-bottom: 50px;
     }
 
     
     .TablaCampos{
+        background: rgba(255,255,255,.25);
         margin: 0 auto;
     }
     
@@ -977,8 +1078,9 @@ img{
         border: 0;
     }
     .TablaAltaCampos{
-        margin: 0 auto;
         
+        margin: 0 auto;
+        background: rgba(255,255,255,.25);
     }
     .AltaNombreCamp,.AltaDireccion,.AltaFecha{
         width:800px;
@@ -1021,13 +1123,14 @@ img{
         color: white;
         border: 0;
     }
-    .TablaAlumnos{
+    .TablaAlumnos,.TablaEditarUsuarios,.TablaAltaUsuarios{
         margin: 0 auto;
         text-align: center;
+        background: rgba(255,255,255,.25)
         
     }
     .TituloEditAlum{
-        margin-top: 100px;
+        
         text-align: center;
     }
     
@@ -1056,6 +1159,35 @@ img{
         width: 80px;
         color: white;
         background: #f4c842;
+    }
+    
+    .UsuarioAlta{
+    width: 250px;
+    height: 35px;
+    margin-left: 13px;
+    border-radius: 8px; 
+    margin-bottom: 25px;
+
+    }
+    
+        .AltaUsuarioGuardar{
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #58ce64;
+        color: white;
+        border: 0;
+        
+    }
+    .AltaUsuarioCancelar{
+        
+        margin-right: 10px;
+        width: 90px;
+        height: 30px;
+        border-radius: 8px;
+        background: #ce5858;
+        color: white;
+        border: 0;
     }
     
     
