@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <title>Cargar Bases</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link  rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="menu" id="menu">
+
+   <header class="main-header">
+      
+       
+        <div class="container container--flex">
+            <div class="logo-container column column-33"><img src="img/f2.png" alt="" class="logo"></div>
+        <div class="main-header__GestionCamp column column-33">
+             
+                     <h1 class="GestionCamp ">Gestion de campos clinicos</h1>   
+
+        </div>
+        
+        <div class="main-header__Nutri column column-33">
+           <table>
+               <tr>
+                   <td>
+                     <a class="icon-casa1 iconoMenu" href="menu.html"></a>
+                   </td>
+                   <td>
+                     <h1 class="Nutricion">Nutrición</h1>  
+                       
+                   </td>
+               </tr>
+           </table>
+            
+        </div>
+        
+        </div>
+        
+    </header>
+    <div>
+        <form action="" class="FormCargaBases">
+            <div>
+              <div class="TablaHead">
+
+               <table class="TablaAlumnos1"  style="margin-bottom: 0px; margin-top: 50px;" >
+                    
+                    <tr>
+                        <td>
+                            <input type="button" value="Alumnos" class="BtnTablaAlumno" id="BtnAlumno">
+                        
+                            <input type="button" value="Campos Clinicos" class="BtnTablaCampos" id="BtnCampos">
+                            
+                            
+                        </td>
+                    </tr>
+               </table>
+                                 
+              </div>
+              <div class="TablaParaCarga" id="TablaParaCarga">
+                  <table class="TablaCargaDeArchivo" style="margin-bottom: 0px; margin-top: 50px;">
+                      <tr>
+                          <td>
+                              <h1>Carga de bases para alumnos</h1>
+                              <input type="file" class="BtnCarga" id="BtnCargar">
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <input type="button" value="Cargar Datos" class="ButtonCarga" id="ButtonCarga">
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                          
+                          <select name="#" id="#" class="Ciclos">
+                             <option value="1">Selecciona el ciclo escolar</option>
+                              <option value="19-2">19-2</option>
+                              <option value="19-3">19-3</option>
+                          </select>
+                          <input type="button" value="+" class="buttonAgregar">
+                          <input type="image" src="img/Actualizar.png" style="width: 25px; margin-bottom:-8px">
+                          </td>
+                      </tr>
+                  </table>
+              </div>
+              <div class="TablaParaCarga2" id="TablaParaCarga2">
+                  <table class="TablaCargaDeArchivo">
+                      <tr>
+                          <td>
+                              <h1>Carga de bases para campos clinicos</h1>
+                              <input type="file" class="BtnCarga" id="BtnCargar2">
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                             
+                              <input type="button" value="Cargar Datos" class="ButtonCarga" id="ButtonCarga2">
+                          </td>
+                      </tr>
+                  </table>
+              </div>
+               <div class="TablaBaseAlumno" id="TablaBaseAlumno">
+                <table class="TablaAlumnos2"  style="margin-top: 50px" border=".">
+                  
+                    <tr>
+                        <td><p>Ciclo</p></td>
+                        <td><p>Nombre</p></td>
+                        <td>Esc</td>
+                        <td><p>Descrip.esc</p></td>
+                        <td><p>Cuenta</p></td>
+                        <td><p>Nombre</p></td>
+                        <td><p>Apellido paterno</p></td>
+                        <td><p>Apellido materno</p></td>
+                        <td><p>Carrera</p></td>
+                        <td>Descrip.Carrera</td>
+                        <td>Sexo</td>
+                        <td>Extra</td>
+                        <td>Extra</td>
+                    </tr>
+                    <tr>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                        <td><p>Ejemplo</p></td>
+                    </tr>
+                    
+                </table>
+                </div>
+                <div class="TablaBaseCampos" id="TablaBaseCampos">
+                    <table class="TablaCampos" border="." >
+                       <tr>
+                           <td><p>Grado</p></td>
+                           <td><p>Grupo_H</p></td>
+                           <td><p>Nombre_Prac</p></td>
+                           <td><p>Nombre_H</p></td>
+                           <td><p>Turno</p></td>
+                           <td><p>Horario</p></td>
+                           <td><p>Periodo</p></td>
+                           <td><p>Fecha</p></td>
+                           <td><p>Lugares</p></td>
+                           <td><p>Direccion</p></td>
+                           <td><p>Extra</p></td>
+                       </tr>
+                       <tr>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                           <td><p>Ejemplo</p></td>
+                       </tr>
+                        
+                        
+                    </table>
+                </div>
+            </div>
+        </form>
+    </div>
+      <script src="js/BotonesTablas.js"></script>
+</body>
+</html>

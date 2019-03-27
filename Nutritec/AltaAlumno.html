@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Alumno</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <link  rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="menu" id="menu">
+   
+   <header class="main-header">
+      
+       
+        <div class="container container--flex">
+            <div class="logo-container column column-33"><img src="img/f2.png" alt="" class="logo"></div>
+        <div class="main-header__GestionCamp column column-33">
+             
+                     <h1 class="GestionCamp ">Gestion de campos clinicos</h1>   
+
+        </div>
+        
+        <div class="main-header__Nutri column column-33">
+           <table>
+               <tr>
+                   <td>
+                     <a class="icon-casa1 iconoMenu" href="menu.html"></a>
+                   </td>
+                   <td>
+                     <h1 class="Nutricion">Nutrición</h1>  
+                       
+                   </td>
+               </tr>
+           </table>
+            
+        </div>
+        
+        </div>
+        
+    </header>
+
+           <form action="#" class="Formulario_formulario">
+           <div>
+               <table class="TablaFormAlumno">
+                  <tr>
+                      <td>
+                          <h1>Agregar Alumno</h1>
+                      </td>
+                   </tr>
+                   <tr>
+                          <td>
+                          
+                          <select name="#" id="#" class="Ciclos">
+                             <option value="1">Selecciona el ciclo escolar</option>
+                              <option value="19-2">19-2</option>
+                              <option value="19-3">19-3</option>
+                          </select>
+                          <input type="button" value="+" class="buttonAgregar">
+                          <input type="image" src="img/Actualizar.png" style="width: 25px; margin-bottom:-8px" onclick="myFunction(false)">
+                          </td>
+                      </tr>
+                   <tr>
+                       <td>
+                           <input type="number" class="form_Numcuenta" id="NumCuenta" placeholder="No. Cuenta" >
+                           <select name="" class="form_cuatri" id="Cuatrimestre">
+                               <option value="1">Cuatrimestre</option>
+                               <option value="2">6</option>
+                               <option value="3">9</option>
+                           </select>
+                           
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                          <input type="text" class="form_Ap" id="ApellidoP" placeholder="Apellido paterno" >
+                           <input type="text" class="form_Am" id="ApellidoM" placeholder="Apellido materno" >
+                           <input type="text" class="form_Nombre" id="NombreAlumn" placeholder="Nombre(s)" >
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                          <select name="" id="" class="form_Ap">
+                             <option value="1" >Selecciona el genero</option>
+                              <option value="H">H</option>
+                              <option value="M">M</option>
+                          </select>
+                           
+                           <input type="text" class="form_Am" id="Carrera" placeholder="Carrera" >
+                           <select name="" class="form_Nombre" id="Materia">
+                               <option value="1">Materia</option>
+                               <option value="2">Ciencias de la salud</option>
+                               <option value="3">Otra</option>
+                           </select>
+                           
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <input type="email" class="form_email" id="alum_email" placeholder="Email" >
+                           <input type="tel" class="form_telfijo" id="TelefonoFijo" placeholder="Telefono fijo">
+                       
+                           <input type="tel" class="form_telcel" id="TelefonoCelular" placeholder="Celular" >
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                          <input type="text" class="form_telemergencia" id="TelEmergencia" placeholder="En caso de emergencia llamar a" > 
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <input type="tel" class="form_Telfamiliar" id="TelFamiliar" placeholder="Telefono de familiar" >
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>
+                           <input class="formCancelar " type="submit" value="CANCELAR" formaction="index.html"  >
+                           <input class="formContinuar" type="submit" value="CONTINUAR" formaction="index.html">
+                       </td>
+                   </tr>
+               </table>
+               </div>
+    </form>
+    </body>
+</html>
