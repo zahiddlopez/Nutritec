@@ -285,14 +285,22 @@ img{
 }
 
 .TituloCampos,.TituloEditarUsuarios,.TituloAltaUsuarios{
+
     text-align: center;
         font-size: 15px;
         margin-bottom: 50px;
+    }
+.TituloCampos2{
+        
+        margin: 0 auto;
+    background: rgba(255,255,255,.25);
+        
     }
     
     .TablaCampos{
         background: rgba(255,255,255,.25);
         margin: 0 auto;
+        text-align: justify;
     }
     
 
@@ -353,11 +361,17 @@ img{
         color: white;
         border: 0;
     }
-    .TablaAlumnos,.TablaEditarUsuarios,.TablaAltaUsuarios{
+    .TablaAlumnos,.TablaAltaUsuarios{
         margin: 0 auto;
         text-align: center;
         background: rgba(255,255,255,.25)
     }
+.TablaEditarUsuarios{
+    margin: 0 auto;
+        text-align: justify;
+        background: rgba(255,255,255,.25)
+}
+        
     .TituloEditAlum{
         font-size: 18px;
 
@@ -435,7 +449,7 @@ img{
     .BtnTablaAlumno{
         width: 120px;
         height: 27px;
-        background: rgb(44, 137, 183);
+        background: rgb(91, 183, 88);
         color: white;
         border-radius: 8px;
         cursor: pointer;
@@ -752,10 +766,15 @@ img{
         text-align: center;
         margin-bottom: 50px;
     }
-    
+    .TituloCampos2{
+        background: rgba(255,255,255,.25);
+        margin: 0 auto;
+        
+    }
     .TablaCampos{
         background: rgba(255,255,255,.25);
         margin: 0 auto;
+        text-align: justify;
     }
     
 
@@ -814,11 +833,17 @@ img{
         color: white;
         border: 0;
     }
-    .TablaAlumnos,.TablaEditarUsuarios,.TablaAltaUsuarios{
+    .TablaAlumnos,.TablaAltaUsuarios{
         margin: 0 auto;
         text-align: center;
         background: rgba(255,255,255,.25)
     }
+    .TablaEditarUsuarios{
+        margin: 0 auto;
+        text-align: justify;
+        background: rgba(255,255,255,.25) 
+    }
+    
     .TituloEditAlum{
         font-size: 30px;
         
@@ -892,7 +917,7 @@ img{
     .BtnTablaAlumno{
         width: 120px;
         height: 27px;
-        background: rgb(44, 137, 183);
+        background: rgb(91, 183, 88);
         color: white;
         border-radius: 8px;
         cursor: pointer;
@@ -1239,14 +1264,25 @@ img{
     margin-left: 10px;;
     border-radius: 8px;
 }
-    .TituloCampos,.TituloEditarUsuarios,.TituloAltaUsuarios{
+    Ta
+    .TituloEditarUsuarios,.TituloAltaUsuarios{
 
         text-align: center;
         margin-bottom: 50px;
     }
+    .TituloCampos{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .TituloCampos2{
+        background: none;
+        margin: 0 auto;
+        
+    }
 
     
     .TablaCampos{
+        text-align: justify;
         background: rgba(255,255,255,.25);
         margin: 0 auto;
     }
@@ -1309,11 +1345,16 @@ img{
         color: white;
         border: 0;
     }
-    .TablaAlumnos,.TablaEditarUsuarios,.TablaAltaUsuarios{
+    .TablaAlumnos,.TablaAltaUsuarios{
         margin: 0 auto;
         text-align: center;
         background: rgba(255,255,255,.25)
         
+    }
+    .TablaEditarUsuarios{
+        margin: 0 auto;
+        text-align: justify;
+        background: rgba(255,255,255,.25)
     }
   .TablaCargaDeArchivo{
   background: rgba(255,255,255,.0);
@@ -1390,7 +1431,7 @@ img{
     .BtnTablaAlumno{
         width: 120px;
         height: 27px;
-        background: rgb(44, 137, 183);
+        background: rgb(91, 183, 88);
         color: white;
         border-radius: 8px;
         cursor: pointer;
@@ -1466,6 +1507,17 @@ img{
     .TablaParaCarga2{
         z-index: 1;
         margin-top: -137px;
+    }
+    
+    .TablaValidacion{
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .TablaValDoc{
+        margin: 0 auto;
+        background: rgba(255,255,255,.45);
+        text-align: justify;
+        
     }
     
     
